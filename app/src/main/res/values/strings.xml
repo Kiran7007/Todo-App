@@ -16,7 +16,7 @@
     <string name="add_task">Enter new item</string>
 
     // Error Message
-    <string name="validation_error">Fields Empty.</string>
+    <string name="validation_error">Field Empty.</string>
     <string name="error_message">Failed to add TODO</string>
     <string name="success_message">Task added successfully</string>
 </resources>

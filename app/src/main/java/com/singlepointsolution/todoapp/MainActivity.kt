@@ -7,9 +7,9 @@ import androidx.activity.viewModels
 import androidx.compose.material.ExperimentalMaterialApi
 import androidx.navigation.NavHostController
 import androidx.navigation.compose.rememberNavController
-import com.singlepointsolution.todoapp.navigation.SetupNavigation
-import com.singlepointsolution.todoapp.ui.theme.ToDoComposeTheme
-import com.singlepointsolution.todoapp.ui.viewmodels.TodoViewModel
+import com.singlepointsolution.common.sharedviewmodel.TodoViewModel
+import com.singlepointsolution.core.theme.ToDoComposeTheme
+import com.singlepointsolution.navigation.SetupNavigation
 import dagger.hilt.android.AndroidEntryPoint
 
 @OptIn(ExperimentalMaterialApi::class)
@@ -24,7 +24,9 @@ class MainActivity : ComponentActivity() {
         setContent {
             ToDoComposeTheme {
                 navController = rememberNavController()
-                SetupNavigation(navController = navController, todoViewModel = todoViewModel)
+                SetupNavigation(
+                    navController = navController, todoViewModel = todoViewModel
+                )
             }
         }
     }

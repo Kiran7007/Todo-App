@@ -1,0 +1,7 @@
+<resources>
+    // Add Task Screen
+    <string name="title">Note</string>
+    <string name="back_arrow">Back Arrow</string>
+    <string name="add_task">Enter new item</string>
+    <string name="validation_error">Field Empty.</string>
+</resources>

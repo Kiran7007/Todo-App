@@ -52,24 +52,12 @@ android {
 }
 
 dependencies {
-
-    // Core
-    implementation("androidx.core:core-ktx:1.13.1")
-    implementation("androidx.appcompat:appcompat:1.7.0")
-    implementation("com.google.android.material:material:1.12.0")
-    implementation("androidx.lifecycle:lifecycle-runtime-ktx:2.8.4")
-    implementation("androidx.activity:activity-compose:1.9.1")
-
-    // Unit Test
-    testImplementation("junit:junit:4.13.2")
-    testImplementation("androidx.arch.core:core-testing:2.2.0")
-    testImplementation("org.mockito.kotlin:mockito-kotlin:5.2.1")
-    testImplementation("org.jetbrains.kotlinx:kotlinx-coroutines-test:1.7.3")
+    implementation(project(":core"))
+    implementation(project(":common"))
+    implementation(project(":navigation"))
 
     // Compose
-    implementation("androidx.compose.ui:ui:1.6.8")
     implementation("androidx.compose.material:material:1.6.8")
-    implementation("androidx.compose.ui:ui-tooling-preview:1.6.8")
 
     // Compose Navigation
     implementation("androidx.navigation:navigation-compose:2.7.7")

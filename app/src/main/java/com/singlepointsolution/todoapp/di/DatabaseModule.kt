@@ -2,8 +2,8 @@ package com.singlepointsolution.todoapp.di
 
 import android.content.Context
 import androidx.room.Room
+import com.singlepointsolution.common.utils.Constants
 import com.singlepointsolution.todoapp.data.TodoDatabase
-import com.singlepointsolution.todoapp.utils.Constants
 import dagger.Module
 import dagger.Provides
 import dagger.hilt.InstallIn

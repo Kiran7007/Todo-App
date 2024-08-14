@@ -1,0 +1,13 @@
+<resources>
+    // Task screen
+    <string name="tasks">Tasks</string>
+    <string name="search">Search</string>
+    <string name="close_icon">Close Icon</string>
+    <string name="add_button_icon">Add Button</string>
+    <string name="search_tasks_icon">Search Tasks</string>
+    <string name="empty_content">Press the + button to add a TODO item</string>
+
+    // Error Message
+    <string name="error_message">Failed to add TODO</string>
+    <string name="success_message">Task added successfully</string>
+</resources>
